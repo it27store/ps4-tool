@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#020805"/><stop offset=".48" stop-color="#123b25"/><stop offset="1" stop-color="#03130b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#e8f5ff" stop-opacity=".9"/><stop offset="1" stop-color="#74b9ff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="field" x2="0" y2="1"><stop stop-color="#27834b"/><stop offset="1" stop-color="#03190e"/></linearGradient>
+ <pattern id="crowd" width="28" height="22" patternUnits="userSpaceOnUse"><rect width="28" height="22" fill="#10233a"/><circle cx="4" cy="5" r="2" fill="#e4edf6"/><circle cx="15" cy="9" r="2" fill="#d9b45b"/><circle cx="23" cy="3" r="2" fill="#9cb9d2"/><circle cx="9" cy="18" r="2" fill="#e5eaf0"/><circle cx="22" cy="17" r="2" fill="#587ea2"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<ellipse cx="250" cy="190" rx="250" ry="160" fill="url(#glow)"/><ellipse cx="1350" cy="190" rx="250" ry="160" fill="url(#glow)"/>
+<path d="M0 260 Q800 100 1600 260 L1600 570 Q800 380 0 570Z" fill="#0b1729" stroke="#36516b" stroke-width="8"/>
+<path d="M0 290 Q800 130 1600 290 L1600 535 Q800 360 0 535Z" fill="url(#crowd)" opacity=".95"/>
+<path d="M0 560 Q800 410 1600 560 L1600 640 Q800 500 0 640Z" fill="#101d2a" stroke="#6d849b" stroke-width="4"/>
+<path d="M0 640 L1600 640 L1600 1000 L0 1000Z" fill="url(#field)"/>
+<path d="M180 1000 L500 650 L1100 650 L1420 1000" fill="none" stroke="#b9e1c8" stroke-opacity=".55" stroke-width="5"/>
+<path d="M800 650 L800 1000 M500 650 Q800 820 1100 650" fill="none" stroke="#b9e1c8" stroke-opacity=".5" stroke-width="4"/>
+<circle cx="800" cy="830" r="115" fill="none" stroke="#b9e1c8" stroke-opacity=".45" stroke-width="4"/>
+<g transform="translate(800 445)"><circle cx="0" cy="-35" r="190" fill="#04170d" fill-opacity=".48" stroke="#7be49a" stroke-opacity=".65" stroke-width="5"/><circle cx="0" cy="-35" r="174" fill="none" stroke="#f0fff3" stroke-opacity=".28" stroke-width="2"/><text text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="112" fill="#ffffff" stroke="#07111d" stroke-width="4" paint-order="stroke">IT STORE</text><text y="92" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="76" fill="#a9ffbf" stroke="#07111d" stroke-width="3" paint-order="stroke">FC 27</text></g>
+<rect width="1600" height="1000" fill="#020813" opacity=".25"/>
+</svg>
